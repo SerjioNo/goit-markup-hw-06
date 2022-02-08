@@ -623,7 +623,7 @@ img {
 
 .container-footer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-list {
@@ -693,11 +693,6 @@ img {
 }
 
 /*----------SOCIAL NET------------*/
-
-.net-block {
-  display: flex;
-  flex-direction: column;
-}
 
 .net-text {
   font-style: normal;
@@ -777,7 +772,6 @@ img {
   line-height: 1.25; /* identical to box height, or 125% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 30px;
   padding-left: 16px;
   outline: none;
 }
